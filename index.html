@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <title>Hello, world!</title>
+
+    <script>
+    	function cargaTexto(){
+    		var texto1 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt eius illo tempora quasi perspiciatis, quibusdam, esse deserunt ullam! Fuga, adipisci. Fuga amet delectus nihil quibusdam facere nemo eligendi quis vel!';
+    		var texto2 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quo, cum maiores maxime iure ex omnis laudantium voluptatibus obcaecati veritatis!';
+
+    		var texto3 = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque laborum est assumenda, voluptate nobis dolorum dolorem eligendi illum asperiores ducimus modi veritatis, enim animi architecto, praesentium aperiam quisquam libero tempora!'
+
+			document.getElementById('nav-home').innerHTML = texto1;
+			document.getElementById('nav-profile').innerHTML = texto2;
+			document.getElementById('nav-contact').innerHTML = texto3;    	    		
+    	}
+
+    </script>
+
+  </head>
+  <body onload="cargaTexto()">
+    <div class="container-fluid">
+
+    	<div class="d-flex  bg-dark">
+	    	<div class=" flex-grow-1">
+	    		<nav class="navbar navbar-expand-lg navbar-dark">
+					<div class="navbar-nav">
+		    			
+		    			<div class="nav-item dropdown">
+		    				<a href="#" 
+		    					class="nav-link dropdown-toggle active"
+		    					id="navbarDropdown" role="button" data-toggle="dropdown"
+		    					aria-haspopup="true" aria-expanded="false">
+		    			      Inicio
+		    			    </a>
+		    			    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">Action</a>
+					          <a class="dropdown-item" href="#">Another action</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="#">Something else here</a>
+					        </div>
+		    			</div>
+
+		    			<a href="#" class="nav-item nav-link">Documentacion</a>
+		    			<a href="#" class="nav-item nav-link">Biblioteca</a>
+		    			<a href="#" class="nav-item nav-link">Quienes somos</a>
+    				</div>					    		    	
+				</nav>
+	    	</div>
+
+			<div>
+	    		<nav class="navbar navbar-expand-lg navbar-dark">
+					<div class="navbar-nav">
+		    			<a href="#" class="nav-item nav-link active">Contactos</a>
+		    			<button class="btn btn-primary" data-toggle="collapse" data-target="#ceo">CEO</button>
+    				</div>					    		    	
+				</nav>
+	    	</div>				    	
+    	</div>    	
+    </div>
+    <div class="container">
+    	<div class="collapse" id="ceo">
+    		<nav>
+			  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+			    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">General</a>
+			    <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Details</a>
+			    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">More</a>
+			  </div>
+			</nav>
+			<div class="tab-content" id="nav-tabContent">
+			  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">tab1</div>
+			  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">tab2</div>
+			  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">tab3</div>
+			</div>	
+    	</div>
+    	<div class="container">
+    		<div class="row">
+    			<div class="card" style="width: 18rem;">
+				  <img src="images/car001.jpg" class="card-img-top" alt="...">
+
+				  	<div class="card-body">
+					    <h5 class="card-title">Card title</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+				  <img src="images/car002.jpg" class="card-img-top" alt="...">
+
+				  	<div class="card-body">
+					    <h5 class="card-title">Card title</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+				  <img src="images/car003.jpg" class="card-img-top" alt="...">
+
+				  	<div class="card-body">
+					    <h5 class="card-title">Card title</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+				  <img src="images/car004.jpg" class="card-img-top" alt="...">
+
+				  	<div class="card-body">
+					    <h5 class="card-title">Card title</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+				  <img src="images/car005.jpg" class="card-img-top" alt="...">
+
+				  	<div class="card-body">
+					    <h5 class="card-title">Card title</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
+					</div>
+				</div>
+
+				<div class="card" style="width: 18rem;">
+				  <img src="images/car006.jpg" class="card-img-top" alt="...">
+
+				  	<div class="card-body">
+					    <h5 class="card-title">Card title</h5>
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					    <a href="#" class="btn btn-outline-primary btn-block">Go somewhere</a>
+					</div>
+				</div>
+
+    		</div>    		
+    	</div>    	
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </body>
+</html>
